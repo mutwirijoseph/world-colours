@@ -14,7 +14,7 @@ p{
     color: #555;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#ffd0d6);
 }
 
 .container{
@@ -63,8 +63,8 @@ nav ul li{
 }
 
 .col-2 img{
-    max-width: 100%;
-    padding: 50px 0;
+    max-width: 140%;
+    padding: 0px 0;
 }
 .col-2 h1{
     font-size: 50px;
@@ -213,7 +213,7 @@ small{
 .col-5 img{
     width: 100%;
     cursor: pointer;
-    filter: grayscale(100%);
+    filter: red(100%);
 }
 .col-5 img:hover{
     filter: grayscale(0);
@@ -572,7 +572,6 @@ form a{
 #RegForm{
     left: 0;
 }
-
 
 
 
