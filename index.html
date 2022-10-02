@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
- function disableClick(){
- document.onclick=function(event){
- if (event.button == 2) {
- alert('Right Click Message');
- return false;
- }
- }
- }
+    <script type="text/javascript"> 
+function disableRightClick() 
+{ 
+alert("Sorry, right click is not allowed !!"); 
+return false; 
+} 
+</script> 
+
 </head>
-<body onLoad="disableClick()">
+<body oncontextmenu=" return disableRightClick();">
+
    
    <div class="header">
        <div class="container">
