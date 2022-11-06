@@ -2,387 +2,248 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Colours Technologies</title>
+    <title>Personal Portfolio Website - Easy Tutorials</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript"> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+};
+$(document).keypress("u",function(e) {
+  if(e.ctrlKey)
+  {
+return false;
+}
+else
+{
+return true;
+}
+});
+</script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+     <script type="text/javascript"> 
 function disableRightClick() 
 { 
-alert("Kindly choose a product to order !!"); 
+alert("Did you Know Kaburia is a Kaggle certified Data Analyst?"); 
 return false; 
 } 
 </script> 
 </head>
 <body oncontextmenu=" return disableRightClick();">
-   
-   <div class="header">
-       <div class="container">
-          <div class="navbar">
-              <div class="logo">
-                  <a href="index.html"><img src="images/log10.png" width="225px"></a>
-              </div>
-              <nav>
-               <ul id="MenuItems">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="product.html">Products</a></li>
-                   <li><a href="contact2.html">About</a></li>
-                   <li><a href="contact2.html">Contact</a></li>
-                   <li><a href="account.html">Account</a></li>
-               </ul>
-              </nav>
-              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-              <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
-          </div>
-
-          <h2>Call +254701806159 to order.</h2>
-           <div class="row">
-                <div class="col-2">
-
-                    <h1>Genuine Global<br>Accessories</h1>
-                    <p>Success isn’t always about greatness. It’s about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
-                    <a href="product.html" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="images/3440.png" width="108%" height="250%">
-                </div>
-               
-           </div>
-           
-       </div>
-       </div>
-<!------------------ featured categories --------------->
-     <div class="categories">
-         <div class="small-container">
-           <div class="row">
-               <div class="col-3">
-                   <img src="images/pl7.jpg">
-               </div> 
-               <div class="col-3">
-                  <img src="images/Rxd.jpg">
-               </div> 
-               <div class="col-3">
-                   <img src="images/hp810.jpg">
-               </div> 
-           </div>
-       </div>
-     </div>
-       
-<!-------------- Our Featured Products -------------->
-  
-  
-  <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-           <div class="row">
-               <div class="col-4">
-                   
-                   <a href="https://wa.me/c/254701806159"><img src="images/Amaya.jpg"></a>
-                   <h4><a href="">Amaya Fast Charger</a></h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>ksh 300.00</p>
-               </div> 
-               <div class="col-4">
-                  <a href="https://wa.me/c/254701806159"><img src="images/Rxd.jpg"></a> 
-                   <h4>Rxd Earphones</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>ksh 200.00</p>
-               </div> 
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/sony.jpg"></a>
-                   <h4>Sony Headphones</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>ksh 600.00</p>
-               </div> 
-                <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/pl7.jpg"></a>
-                   <h4>pli7 headphones</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>ksh 1000.00</p>
-               </div> 
-           </div>
-        <h2 class="title">Product on Offer</h2>
-             <div class="row">
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/oraimo.jpg"></a>
-                   <h4>Oraimo Earphones</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>ksh 2000</p>
-               </div> 
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/hp810.jpg"></a>
-                   <h4>hp Revolve 810 laptop</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>ksh 24000.00</p>
-               </div> 
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/infinix.jpg"></a>
-                   <h4>Infinix Charger</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>ksh 250.00</p> 
-               </div> 
-                <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/cable.jpg"></a>
-                   <h4>Amaya DAta cable</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>ksh 200.00</p>
-               </div> 
-           </div>
-           <div class="row">
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/Epm.jpg"></a>
-                   <h4>Epm earphones</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>ksh 250.00</p> 
-               </div> 
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/ofia.jpg"></a>
-                   <h4>OfiaEarphones</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>ksh 150</p>
-               </div> 
-               <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/3d.jpg"></a>
-                   <h4>3 D Screen Protector</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>Ksh 300.00</p>
-               </div> 
-                <div class="col-4">
-                   <a href="https://wa.me/c/254701806159"><img src="images/21d.jpg"></a>
-                   <h4>21D Screen Protector</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>Ksh 350.00</p>
-               </div> 
-           </div>
-       </div>
-       
-<!----------offer--------------->
-  
-   <div class="offer">
-       <div class="small-container">
-           <div class="row">
-           <div class="col-2">
-               <img src="images/epson.png" class="offer-img">
-           </div>
-           <div class="col-2">
-               <p>Exclusively  on Offers Today</p>
-               <h1>Epson l850</h1>
-               <small>Our first A4 6-colour ITS multifunction photo printer with an LCD screen, delivering low-cost and Epson-quality PC-less photo printing.</small>
-               <br>
-               <a href="https://wa.me/c/254701806159" class="btn">Buy Now &#8594;</a>
-           </div>
-       </div>
-       </div>
-       
-   </div>
-   
-<!----------testimonial--------------->   
-  
-   <div class="testimonial">
-       <div class="small-container">
-       <div class="row">
-           <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                      <p>I just ordered my earphones and received them in less than 10 minutes. They sound great, i highly recommend this easy online shop</p>
-                      <div class="rating">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star-o"></i>
-                       </div>
-                       <img src="images/user1.jpg">
-                       <h3>Tressy Mwendwa</h3>
-           </div>
-            <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                      <p>I have always found your services on time and product delivery okay. I would recoomend anyone buying laptops or phones to world colours.</p>
-                      <div class="rating">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star-o"></i>
-                       </div>
-                       <img src="images/user2.jpg">
-                       <h3>Kevin Prince</h3>
-           </div>
-            <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                      <p>Orders delivered on time,i just received my kyocera c284e in kakamega.Thank you so much</p>
-                      <div class="rating">
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                           <i class="fa fa-star"></i>
-                       </div>
-                       <img src="images/user3.jpg">
-                       <h3>James Mucheke</h3>
-           </div>
-       </div>
-       </div>
-   </div>
-<!----------Brands--------------->     
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/log10.png" width="280px" height="160px">
-                </div>
-                <div class="col-5">
-                    <img src="images/Arecolor.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/oraimo.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/kaburia.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/amaya.png">
-                </div>
-            </div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, Get <span>Quality</span><br>Assignment Help From <br>Professionals</h1>
         </div>
     </div>
-<!----------Footer---------------> 
-
-<div class="footer">
+</div>
+<!-- -----------about---------- -->
+<div id="about">
     <div class="container">
         <div class="row">
-            <div class="footer-col1">
-               <h3>Download Our App</h3>
-                <p>Download App for Android and ios mobile phone.</p>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a motivated,teamwork-oriented and responsible Data Analyst with significant experience in increasing comprehesion of reports and presentation by the average professional, highly educated with a Bachelor of Science Applied Statistics With IT and Professional certifications in Data science and web design.
+
+            </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Machine Learning</span><br>Machine learning With R and Python</li>
+                        <li><span>Data Visualization</span><br>Tableau and Power BI</li>
+                        <li><span>Web Development </span><br>HTML,CSS,JAVASCRIPT</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Hamanzi Worldlink Agency</li>
+                        <li><span>2021 - 2022</span><br>Team lead at World Colours Technologies.</li>
+                        <li><span>2018 - 2020</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2022 - 2023</span><br>Internship at KTDA.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018-2022</span><br>BSC Applied Statistics with IT at MMUST</li>
+                        <li><span>2017-2018</span><br>ICDL Computer Pride </li>
+                        <li><span>2020</span><br>Web Development. Programming HUb</li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-col2">
-               <img src="images/kaburia.png">
-                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Modern Tecnology Accessible to the Many.</p>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Big Data Consultant</h2>
+                <p>Big data consultancy to help derive valuable insights from vast volumes of multi-structured data. </p>
+                <a href="#">Learn more</a>
             </div>
-            <div class="footer-col3">
-               <h3>Useful Links</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Data Visualization</h2>
+                <p>With the most recent and modern tools,tableau, PowerBi, GGPLOTS and Plotly, i can help you build unique dashboards to visualize your data.</p>
+                <a href="#">Learn more</a>
             </div>
-            <div class="footer-col4">
-               <h3>Follow Us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter<li>
-                    <li>Instagram</li>
-                    <li>YouTube</li>
-                </ul>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Web Design</h2>
+                <p>Kaburia is a experienced web designer, if you need a website, help is just here with you. Contact me</p>
+                <a href="#">Learn more</a>
             </div>
         </div>
-        <hr>
-        <p class="copyright"><a href="https://hamanzi-worldlink-agency-ltd.business.site/">Copyright 2020 - World Colours Technologies</a></p>
     </div>
-    
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/excel.jpg">
+                <div class="layer">
+                    <h3>Data Reports Automation</h3>
+                    <p>Automating excel using Python. Forget about macros in excel, with easy step by step guide, i ll show how to automate excel reporting with python.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rstudio.jpeg">
+                <div class="layer">
+                    <h3>Data analytics with R Programming</h3>
+                    <p>Learn some basics of r programming from my kaggle profile, or git. Find my other projeects too and learn with me.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/visual.jpg">
+                <div class="layer">
+                    <h3>Data visualizations</h3>
+                    <p>Check out my latest dashboards and data visuals built with different tools.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>knowledgetransfer8@gmail.com</p>
+                <a href="https://wa.me/+254701806159" download class="btn btn2">Chat on Whatsapp</a>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://www.studypool.com/Helmyhh?aid=Helmyhh" download class="btn btn2">Assignment help</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kaburia Made wtih <i class="fas fa-heart"></i> by <a href="www.google.com">Kaburia</a></p>
+    </div>
 </div>
 
 
 
-<!-------------js for toggle menu-------------->
-
 <script>
-    
-    var MenuItems = document.getElementById("MenuItems");
-    
-    MenuItems.style.maxHeight = "0px";
-    
-    function menutoggle()
-    {
-        if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px";
-            }else
-            {
-                MenuItems.style.maxHeight = "0px"
-            } 
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
     }
-    
+
 </script>
 
+<script>
 
+    var sidemeu = document.getElementById("sidemenu");
 
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 </html>
